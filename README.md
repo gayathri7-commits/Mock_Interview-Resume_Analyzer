@@ -1,16 +1,47 @@
-# React + Vite
+# 🚀 TalentGrad - AI Mock Interview & Resume Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TalentGrad is an intelligent, end-to-end career preparation platform designed to help candidates optimize their resumes and practice real-time technical interviews. By mapping applicant profiles against specific target job roles, the platform bridges the gap between traditional applications and successful technical evaluations.
 
-Currently, two official plugins are available:
+🚀 **[Live Demo](https://mock-interview-resume-analyzer-ew4d.vercel.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🗺️ Application Workflow
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application guides the candidate through a structured, 4-step preparation funnel:
 
-## Expanding the ESLint configuration
+1. **📄 Resume Parse:** Select a target job profile (Preset or Custom) and upload a resume for structural parsing.
+2. **📊 ATS Scorecard:** Generates a comprehensive keyword matching and gap analysis report against the job description.
+3. **🎙️ Mock Session:** An interactive, AI-driven technical mock interview tailored specifically to the detected skill gaps.
+4. **📈 AI Report Card:** Delivers robust performance metrics, analytics, and actionable behavioral/technical feedback.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🌟 Key Features
+
+* **Role-Specific Targeting:** Supports standard industry tech profiles (like Frontend Software Engineer) alongside custom role inputs.
+* **Dynamic Multi-Step Pipeline:** Features a state-driven, step-by-step progress wizard that retains user workflow context.
+* **File Processing Interface:** Includes a clean drag-and-drop file upload component for resume ingestion.
+* **Sleek Enterprise UI:** Engineered with a premium, low-fatigue dark aesthetic incorporating high-contrast accents and intuitive step mapping.
+
+---
+
+## 🛠️ Tech Stack & Tooling
+
+* **Core Framework:** Built using a modern, component-driven frontend architecture for performance-focused state management.
+* **Build System:** Fast build speeds and compilation driven by **Vite**.
+* **Styling Ecosystem:** Styled using utilities and custom design configurations for layouts and strict visual consistency.
+* **Linters & Formatters:** Configured with **ESLint** to enforce clean code practices and prevent runtime regressions.
+
+---
+
+## 📂 Project Structure
+
+```text
+├── public/               # Global static web assets and system icons
+├── src/                  # Main application development source files
+├── index.html            # Core HTML entry shell
+├── vite.config.js        # Vite bundling and optimization rules
+├── eslint.config.js      # Quality assurance linting rules
+├── package.json          # Manifest containing project scripts and dependencies
+└── README.md             # Project documentation
